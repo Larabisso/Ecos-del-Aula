@@ -5,10 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ecos del Aula</title>
   <link rel="stylesheet" href="estilos.css" />
+  <link rel="icon" href="img/e.png" type="image/x-icon">
+
 </head>
 <body>
   <header>
-    <div class="logo">🌿 ECOS DEL AULA</div>
+    <div class="logo">
+      <img src="img/ex.png" alt="Texto alternativo">
+    </div>
     <nav>
       <a href="#">Inicio</a>
       <a href="#">Sobre nosotros</a>
@@ -54,8 +58,23 @@
     </section>
   </main>
 
-  <footer>
-    <p>Ecos del Aula</p>
+  <footer class="footer-completo">
+    <div class="footer-columna">
+      <img src="img/e.png" alt="Logo Ecos del Aula" class="footer-logo" />
+      <p>2025 Ecos del Aula. Todos los derechos reservados.</p>
+    </div>
+
+    <div class="footer-columna">
+      <h4>Enlaces</h4>
+      <a href="#">Inicio</a><br />
+      <a href="#">Sobre nosotros</a><br />
+      <a href="#">Contacto</a>
+    </div>
+
+    <div class="footer-columna">
+      <h4>Contacto</h4>
+      <p>Email: ecosdelaula@gmail.com</p>
+    </div>
   </footer>
 </body>
 </html>
