@@ -4,9 +4,9 @@ session_start();
 define('DB_SERVER', 'localhost');   // Nombre del servidor, generalmente 'localhost' en XAMPP
 define('DB_USER', 'root');          // Nombre de usuario de la base de datos (por defecto es 'root' en XAMPP)
 define('DB_PASS', '');              // Contraseña de la base de datos (generalmente está vacía en XAMPP)
-define('DB_NAME', 'ecos_del_aula');  // Nombre de la base de datos
+define('DB_NAME', 'ecos-del-aula');  // Nombre de la base de datos
 
-define('APP_URL', '//localhost/ecos_del_aula');    // URL base de la aplicación
+define('APP_URL', '//localhost/ecos-del-aula');    // URL base de la aplicación
 
 // Conexión a la base de datos / Database connection
 $connection = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
