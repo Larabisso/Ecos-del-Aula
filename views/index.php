@@ -36,10 +36,10 @@
 
     <aside class="encuesta">
       <h3>Encuesta Anónima</h3>
-      <p>¿Necesitás ayuda?</p>
+      <p>Encuestas anonimas</p>
       <div class="botones">
-        <button class="no">No</button>
-        <button class="si">Sí</button>
+        <a class="no">No</a>
+        <a class="si" href="preguntas.php">Si</a>
       </div>
     </aside>
 
