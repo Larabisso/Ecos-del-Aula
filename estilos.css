@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background: linear-gradient(135deg, #d7e8da, #c2d8cc, #a0c0ad, #7aa18d);
+  background-size: cover;
+  color: #333;
+}
+body {
+  background: linear-gradient(135deg, #d7e8da, #c2d8cc, #a0c0ad, #7aa18d);
+  font-family: Georgia, serif;
+}
+
+.principal {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  padding: 40px;
+}
+
+.descripcion {
+  background: rgba(255, 255, 255, 0.4);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.descripcion h1 {
+  margin-bottom: 20px;
+  font-style: italic;
+  font-size: 26px;
+}
+
+.descripcion p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.encuesta {
+  background-color: #e6e6e6;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  height: fit-content;
+}
+
+.encuesta h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.botones button {
+  background-color: #ccc;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.preguntas {
+  grid-column: span 2;
+  background-color: #cbd3cc;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.preguntas h3 {
+  margin-bottom: 15px;
+}
+
+.preguntas ul {
+  list-style: none;
+  padding: 0;
+}
+
+.preguntas li {
+  margin-bottom: 10px;
+}
+
+.preguntas button {
+  width: 100%;
+  padding: 10px;
+  background-color: #e7ece9;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+footer {
+  background: #dcdcdc;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: white;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+  padding: 8px 16px;
+  background-color: #dbe0d1;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+main.contacto {
+  max-width: 500px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-style: italic;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+}
+
+form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #d3d6c4;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+footer .sello {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.6;
+}

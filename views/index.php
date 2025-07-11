@@ -1,50 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Mi Página con Header y Footer</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        header {
-            background-color: #2e7d32; /* verde oscuro */
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        footer {
-            background-color: #388e3c; /* otro tono de verde */
-            color: white;
-            padding: 15px;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-
-        main {
-            padding: 20px;
-            margin-bottom: 60px; /* espacio para el footer fijo */
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecos del Aula</title>
+  <link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
+  <header>
+    <div class="logo">🌿 ECOS DEL AULA</div>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Sobre nosotros</a>
+      <a href="contactanos.php">Contacto</a>
+    </nav>
+  </header>
 
-<header>
-    <h1>Bienvenido a mi sitio</h1>
-</header>
+  <main class="principal">
+    <section class="descripcion">
+      <h1>¿Para que sirve Ecos del Aula?</h1>
+      <p>
+        Frente a los altos niveles de estrés que viven muchos estudiantes dentro del ámbito escolar,
+        causados por la presión académica, la necesidad de encajar socialmente, la incertidumbre sobre el futuro
+        y otras tensiones emocionales, surge nuestro proyecto como una propuesta de contención, escucha activa y acompañamiento.
+      </p>
+      <p>
+        El principal eje del proyecto, es una página web interactiva, que servirá como espacio seguro,
+        accesible y adaptable a las distintas etapas de la secundaria, así como a sus necesidades específicas.
+      </p>
+      <p>
+        Se busca acompañar al estudiante en el recorrido que los desafíos emocionales varían con el desarrollo:
+        desde el miedo al comenzar primer año, hasta la ansiedad frente al futuro en sexto.
+      </p>
+    </section>
 
-<main>
-    <p>Este es el contenido principal de la página.</p>
-</main>
+    <aside class="encuesta">
+      <h3>Encuesta Anónima</h3>
+      <p>¿Necesitás ayuda?</p>
+      <div class="botones">
+        <button class="no">No</button>
+        <button class="si">Sí</button>
+      </div>
+    </aside>
 
-<footer>
-    <p>© 2025 Mi Sitio Web - Todos los derechos reservados</p>
-</footer>
+    <section class="preguntas">
+      <h3>Preguntas que pueden surgir</h3>
+      <ul>
+        <li><button>Pregunta 1</button></li>
+        <li><button>Pregunta 2</button></li>
+        <li><button>Pregunta 3</button></li>
+        <li><button>Pregunta 4</button></li>
+      </ul>
+    </section>
+  </main>
 
+  <footer>
+    <p>Ecos del Aula</p>
+  </footer>
 </body>
 </html>
