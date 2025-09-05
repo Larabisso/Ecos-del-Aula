@@ -13,8 +13,8 @@
     </div>
     <nav>
       <a href="index.php">Inicio</a>
-      <a href="#">Sobre nosotros</a>
-      <a href="#">Contacto</a>
+      <a href="sobreNosotros.php">Sobre nosotros</a>
+      <a href="contacto.php">Contacto</a>
     </nav>
   </header>
 

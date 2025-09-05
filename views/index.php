@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ecos del Aula</title>
-  <link rel="stylesheet" href="estilos.css" />
+  <link rel="stylesheet" href="estilos1.css" />
   <link rel="icon" href="img/e.png" type="image/x-icon">
 
 </head>
@@ -14,8 +14,8 @@
       <img src="img/ex.png" alt="Texto alternativo">
     </div>
     <nav>
-      <a href="#">Inicio</a>
-      <a href="#">Sobre nosotros</a>
+      <a href="index.php">Inicio</a>
+      <a href="sobreNosotros.php">Sobre nosotros</a>
       <a href="contactanos.php">Contacto</a>
     </nav>
   </header>
@@ -37,27 +37,50 @@
         desde el miedo al comenzar primer año, hasta la ansiedad frente al futuro en sexto.
       </p>
     </section>
-
     <aside class="encuesta">
       <h3>Encuesta Anónima</h3>
-      <p>Encuestas anonimas</p>
+      <p>¿Necesitás ayuda?</p>
       <div class="botones">
-        <a class="no">No</a>
-        <a class="si" href="preguntas.php">Si</a>
+
+        <a class="si" href="preguntas.php">Click Aquí</a>
       </div>
     </aside>
-
-    <section class="preguntas">
-      <h3>Preguntas que pueden surgir</h3>
-      <ul>
-        <li><button>Pregunta 1</button></li>
-        <li><button>Pregunta 2</button></li>
-        <li><button>Pregunta 3</button></li>
-        <li><button>Pregunta 4</button></li>
-      </ul>
-    </section>
   </main>
+<section class="desafios">
+  <h2>Cada etapa, un desafío</h2>
+  <p>
+    Cada año de la secundaria trae sus propios desafíos y emociones. 
+    En esta sección encontrarás un espacio pensado especialmente para acompañarte en cada etapa,
+    con recursos y apoyo adaptados a lo que estás viviendo.
+  </p>
 
+  <div class="iconos-container">
+    <div class="icono">
+      <img src="img/icon1.png" alt="Primer año">
+      <p>Primer año</p>
+    </div>
+    <div class="icono">
+      <img src="img/icon2.png" alt="Segundo año">
+      <p>Segundo año</p>
+    </div>
+    <div class="icono">
+      <img src="img/icon3.png" alt="Tercer año">
+      <p>Tercer año</p>
+    </div>
+    <div class="icono">
+      <img src="img/icon4.png" alt="Cuarto año">
+      <p>Cuarto año</p>
+    </div>
+    <div class="icono">
+      <img src="img/icon5.png" alt="Quinto año">
+      <p>Quinto año</p>
+    </div>
+    <div class="icono">
+      <img src="img/icon6.png" alt="Sexto año">
+      <p>Sexto año</p>
+    </div>
+  </div>
+</section>
   <footer class="footer-completo">
     <div class="footer-columna">
       <img src="img/e.png" alt="Logo Ecos del Aula" class="footer-logo" />
