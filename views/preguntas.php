@@ -1,3 +1,34 @@
+<?php
+require_once('config.php');
+// id de la pregunta actual (por defecto 1 si no se pasa nada)
+$id = isset($_GET['id']) ? (int)$_GET['id'] : 1;
+
+// Traer la pregunta
+$sqlPregunta = "SELECT * FROM preguntastest WHERE id_pregunta = $id";
+$resPregunta = $conn->query($sqlPregunta);
+
+$pregunta = "No hay preguntas disponibles.";
+if ($resPregunta->num_rows > 0) {
+    $row = $resPregunta->fetch_assoc();
+    $pregunta = $row["preguntas"];
+}
+
+// Traer respuestas vinculadas
+$sqlRespuestas = "
+    SELECT r.id_respuesta, r.respuesta 
+    FROM respuestastest r
+    INNER JOIN pregunta_respuesta pr ON r.id_respuesta = pr.id_respuesta
+    WHERE pr.id_pregunta = $id
+";
+$resRespuestas = $conn->query($sqlRespuestas);
+
+// Calcular el id máximo para saber cuándo terminar
+$sqlMax = "SELECT MAX(id_pregunta) AS max_id FROM preguntastest";
+$resMax = $conn->query($sqlMax);
+$rowMax = $resMax->fetch_assoc();
+$maxId = $rowMax["max_id"];
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -18,26 +49,44 @@
     </nav>
   </header>
 
-  <main class="encuesta-pregunta">
+    <main class="encuesta-pregunta">
     <h2>Pregunta anónima</h2>
+
     <div class="pregunta">
-      <p>¿Crees que tus problemas están basados en tu falta de capacidad?</p>
+      <p><?php echo $pregunta; ?></p>
     </div>
 
-    <section class="respuestas">
-      <h3>Respuesta</h3>
-      <ul>
-        <li><button>Pregunta 1</button></li>
-        <li><button>Pregunta 2</button></li>
-        <li><button>Pregunta 3</button></li>
-        <li><input type="text" placeholder="Otro:" /></li>
-      </ul>
-    </section>
+    <!-- Formulario para seleccionar respuesta -->
+    <form action="guardar_respuesta.php" method="POST">
+      <section class="respuestas">
+        <h3>Respuesta</h3>
+        <ul>
+          <?php if ($resRespuestas->num_rows > 0): ?>
+              <?php while ($row = $resRespuestas->fetch_assoc()): ?>
+                  <li>
+                    <label>
+                      <input type="radio" name="respuesta" value="<?php echo $row['id_respuesta']; ?>" required>
+                      <?php echo $row['respuesta']; ?>
+                    </label>
+                  </li>
+              <?php endwhile; ?>
+          <?php endif; ?>
+          </ul>
+      </section>
 
-    <div class="navegacion">
-      <button class="atras">Atras</button>
-      <button class="siguiente">Siguiente</button>
-    </div>
+      <!-- Campos ocultos -->
+      <input type="hidden" name="id_pregunta" value="<?php echo $id; ?>">
+
+      <div class="navegacion">
+        <?php if ($id > 1): ?>
+          <a href="preguntas.php?id=<?php echo $id - 1; ?>">
+            <button type="button" class="atras">Atrás</button>
+          </a>
+        <?php endif; ?>
+
+        <button type="submit" class="siguiente">Siguiente</button>
+      </div>
+    </form>
   </main>
 
   <footer class="footer-completo">
