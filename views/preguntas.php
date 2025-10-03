@@ -1,17 +1,48 @@
 <?php
 require_once('config.php');
-// id de la pregunta actual (por defecto 1 si no se pasa nada)
-$id = isset($_GET['id']) ? (int)$_GET['id'] : 1;
+
+// Iniciar sesión si no lo está
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+//Si se reinicia la página sin id, redirigir a la primera pregunta y limpiar todo
+if (!isset($_GET['id'])) {
+    $conn->query("DELETE FROM resultados");
+    $_SESSION['ultima_pregunta'] = 1; // reinicia el control de preguntas
+    header("Location: preguntas.php?id=1");
+    exit;
+}
+
+// id de la pregunta actual
+$id = (int)$_GET['id'];
+
+//Si la sesión tiene almacenada la última pregunta y el usuario hizo "Atrás"
+if (isset($_SESSION['ultima_pregunta']) && $id < $_SESSION['ultima_pregunta']) {
+    // Borrar la última respuesta ingresada
+    $conn->query("DELETE FROM resultados ORDER BY id_resultado DESC LIMIT 1");
+}
+
+//Guardar la última pregunta visitada en la sesión
+$_SESSION['ultima_pregunta'] = $id;
+
+//Limpiar puntajes anteriores solo si es la primera pregunta
+if ($id === 1) {
+    $conn->query("DELETE FROM resultados");
+}
 
 // Traer la pregunta
 $sqlPregunta = "SELECT * FROM preguntastest WHERE id_pregunta = $id";
 $resPregunta = $conn->query($sqlPregunta);
 
-$pregunta = "No hay preguntas disponibles.";
-if ($resPregunta->num_rows > 0) {
-    $row = $resPregunta->fetch_assoc();
-    $pregunta = $row["preguntas"];
+// Si no hay más preguntas, redirigir a resultado.php
+if ($resPregunta->num_rows == 0) {
+    header("Location: resultado.php");
+    exit;
 }
+
+$row = $resPregunta->fetch_assoc();
+$pregunta = $row["preguntas"];
 
 // Traer respuestas vinculadas
 $sqlRespuestas = "
@@ -35,7 +66,7 @@ $maxId = $rowMax["max_id"];
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pregunta anónima</title>
-  <link rel="stylesheet" href="estilos.css" />
+  <link rel="stylesheet" href="estilos1.css" />
 </head>
 <body>
   <header>
@@ -49,14 +80,13 @@ $maxId = $rowMax["max_id"];
     </nav>
   </header>
 
-    <main class="encuesta-pregunta">
+  <main class="encuesta-pregunta">
     <h2>Pregunta anónima</h2>
 
     <div class="pregunta">
       <p><?php echo $pregunta; ?></p>
     </div>
 
-    <!-- Formulario para seleccionar respuesta -->
     <form action="guardar_respuesta.php" method="POST">
       <section class="respuestas">
         <h3>Respuesta</h3>
@@ -71,10 +101,9 @@ $maxId = $rowMax["max_id"];
                   </li>
               <?php endwhile; ?>
           <?php endif; ?>
-          </ul>
+        </ul>
       </section>
 
-      <!-- Campos ocultos -->
       <input type="hidden" name="id_pregunta" value="<?php echo $id; ?>">
 
       <div class="navegacion">
@@ -83,7 +112,6 @@ $maxId = $rowMax["max_id"];
             <button type="button" class="atras">Atrás</button>
           </a>
         <?php endif; ?>
-
         <button type="submit" class="siguiente">Siguiente</button>
       </div>
     </form>
@@ -97,9 +125,9 @@ $maxId = $rowMax["max_id"];
 
     <div class="footer-columna">
       <h4>Enlaces</h4>
-      <a href="#">Inicio</a><br />
-      <a href="#">Sobre nosotros</a><br />
-      <a href="#">Contacto</a>
+      <a href="index.php">Inicio</a><br />
+      <a href="sobreNosotros.php">Sobre nosotros</a><br />
+      <a href="contactanos.php">Contacto</a>
     </div>
 
     <div class="footer-columna">
