@@ -89,9 +89,9 @@
 
     <div class="footer-columna">
       <h4>Enlaces</h4>
-      <a href="#">Inicio</a><br />
-      <a href="#">Sobre nosotros</a><br />
-      <a href="#">Contacto</a>
+      <a href="index.php">Inicio</a><br />
+      <a href="sobreNosotros.php">Sobre nosotros</a><br />
+      <a href="contactanos.php">Contacto</a>
     </div>
 
     <div class="footer-columna">
