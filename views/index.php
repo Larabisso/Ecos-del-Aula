@@ -10,15 +10,18 @@
 </head>
 <body>
   <header>
-    <div class="logo">
+  <div class="logo">
+    <a href="index.php">
       <img src="img/ex.png" alt="Texto alternativo">
-    </div>
-    <nav>
-      <a href="index.php">Inicio</a>
-      <a href="sobreNosotros.php">Sobre nosotros</a>
-      <a href="contactanos.php">Contacto</a>
-    </nav>
-  </header>
+    </a>
+  </div>
+  <nav>
+    <a href="index.php">Inicio</a>
+    <a href="sobreNosotros.php">Sobre nosotros</a>
+    <a href="contactanos.php">Contacto</a>
+  </nav>
+</header>
+
 
   <main class="principal">
     <section class="descripcion">
@@ -56,27 +59,39 @@
 
   <div class="iconos-container">
     <div class="icono">
-      <img src="img/icon1.png" alt="Primer año">
+      <a href="1-anio.php">
+        <img src="img/icon1.png" alt="Primer año">
+      </a>
       <p>Primer año</p>
     </div>
     <div class="icono">
-      <img src="img/icon2.png" alt="Segundo año">
+      <a href="2-anio.php">
+        <img src="img/icon2.png" alt="Segundo año">
+      </a>
       <p>Segundo año</p>
     </div>
     <div class="icono">
-      <img src="img/icon3.png" alt="Tercer año">
+      <a href="3-anio.php">
+        <img src="img/icon3.png" alt="Tercer año">
+      </a>
       <p>Tercer año</p>
     </div>
     <div class="icono">
-      <img src="img/icon4.png" alt="Cuarto año">
+      <a href="4-anio.php">
+        <img src="img/icon4.png" alt="Cuarto año">
+      </a>
       <p>Cuarto año</p>
     </div>
     <div class="icono">
-      <img src="img/icon5.png" alt="Quinto año">
+      <a href="5-anio.php">
+        <img src="img/icon5.png" alt="Quinto año">
+      </a>
       <p>Quinto año</p>
     </div>
     <div class="icono">
-      <img src="img/icon6.png" alt="Sexto año">
+      <a href="6-anio.php">
+        <img src="img/icon6.png" alt="Sexto año">
+      </a>
       <p>Sexto año</p>
     </div>
   </div>

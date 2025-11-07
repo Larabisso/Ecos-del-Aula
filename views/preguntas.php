@@ -70,15 +70,17 @@ $maxId = $rowMax["max_id"];
 </head>
 <body>
   <header>
-    <div class="logo">
+  <div class="logo">
+    <a href="index.php">
       <img src="img/ex.png" alt="Texto alternativo">
-    </div>
-    <nav>
-      <a href="index.php">Inicio</a>
-      <a href="sobreNosotros.php">Sobre nosotros</a>
-      <a href="contactanos.php">Contacto</a>
-    </nav>
-  </header>
+    </a>
+  </div>
+  <nav>
+    <a href="index.php">Inicio</a>
+    <a href="sobreNosotros.php">Sobre nosotros</a>
+    <a href="contactanos.php">Contacto</a>
+  </nav>
+</header>
 
   <main class="encuesta-pregunta">
     <h2>Pregunta anónima</h2>
