@@ -48,11 +48,19 @@
       margin: 0;
     }
 
-    .psico-img {
+    .psico-img1 {
       width: 220px;
       height: 140px;
       border-radius: 12px;
-      background: url('https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=') center/cover no-repeat;
+      background: url('img/estresado1.jpg') center/cover no-repeat;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+      flex-shrink: 0;
+    }
+    .psico-img2 {
+      width: 220px;
+      height: 140px;
+      border-radius: 12px;
+      background: url('img/estresado2.jpg') center/cover no-repeat;
       box-shadow: 0 6px 18px rgba(0,0,0,0.12);
       flex-shrink: 0;
     }
@@ -93,7 +101,7 @@
           Un nivel alto de estrés indica que estás pasando por un momento de mucha presión o sobrecarga emocional, y eso puede afectar tu salud física y mental. Podés sentirte muy cansado/a, con dificultad para concentrarte, cambios de humor, problemas para dormir o incluso molestias físicas como dolores de cabeza o tensión muscular.
 
         </p>
-        <div class="psico-img"></div>
+        <div class="psico-img1"></div>
       </div>
 
       <div class="psico-bloque">
@@ -107,7 +115,7 @@
           También es importante que revises tu rutina diaria: descansá lo suficiente, mantené horarios regulares, alimentate bien y limitá el tiempo frente a las pantallas. Realizar actividad física, escuchar música, dibujar, hacer pausas activas o practicar ejercicios de respiración puede ayudarte a liberar tensiones y sentirte mejor.
 
         </p>
-        <div class="psico-img"></div>
+        <div class="psico-img2"></div>
       </div>
 
       <h2 class="psico-subtitulo">Cada etapa es un desafío</h2>

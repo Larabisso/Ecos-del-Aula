@@ -48,11 +48,19 @@
       margin: 0;
     }
 
-    .psico-img {
+    .psico-img1 {
       width: 220px;
       height: 140px;
       border-radius: 12px;
-      background: url('https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=') center/cover no-repeat;
+      background: url('img/nenes9.jpg') center/cover no-repeat;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+      flex-shrink: 0;
+    }
+    .psico-img2 {
+      width: 220px;
+      height: 140px;
+      border-radius: 12px;
+      background: url('img/nenes4.jpg') center/cover no-repeat;
       box-shadow: 0 6px 18px rgba(0,0,0,0.12);
       flex-shrink: 0;
     }
@@ -94,7 +102,7 @@
         El tercer año marca un momento en el que los estudiantes comienzan a experimentar una mayor presión académica y personal. Los contenidos escolares se vuelven más complejos y las expectativas de rendimiento aumentan, tanto por parte de los docentes como de las familias y del propio estudiante.
 
         </p>
-        <div class="psico-img"></div>
+        <div class="psico-img1"></div>
       </div>
 
       <div class="psico-bloque">
@@ -108,7 +116,7 @@
     Desde lo psicológico, es una etapa clave para fortalecer la autopercepción de competencia y promover estrategias de afrontamiento ante los desafíos. Aprender a reconocer los errores como parte del proceso de aprendizaje, y no como fracasos personales, constituye un avance esencial hacia la madurez emocional. Asimismo, el acompañamiento institucional y familiar debe orientarse a equilibrar la exigencia con el apoyo emocional, promoviendo la confianza y el desarrollo de la autonomía.
 
         </p>
-        <div class="psico-img"></div>
+        <div class="psico-img2"></div>
       </div>
 
     

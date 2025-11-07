@@ -48,11 +48,19 @@
       margin: 0;
     }
 
-    .psico-img {
+    .psico-img1 {
       width: 220px;
       height: 140px;
       border-radius: 12px;
-      background: url('https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=') center/cover no-repeat;
+      background: url('img/tenso1.jpg') center/cover no-repeat;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+      flex-shrink: 0;
+    }
+    .psico-img2 {
+      width: 220px;
+      height: 140px;
+      border-radius: 12px;
+      background: url('img/tenso2.jpg') center/cover no-repeat;
       box-shadow: 0 6px 18px rgba(0,0,0,0.12);
       flex-shrink: 0;
     }
@@ -93,7 +101,7 @@
           Tu nivel de estrés está en un punto medio, lo que significa que probablemente empezás a sentir que las responsabilidades o preocupaciones te están afectando un poco más de lo normal. Podés notar que te cuesta concentrarte, que te cansás con facilidad o que te cuesta relajarte después de estudiar.
 
         </p>
-        <div class="psico-img"></div>
+        <div class="psico-img1"></div>
       </div>
 
       <div class="psico-bloque">
@@ -107,7 +115,7 @@
           También puede ayudarte revisar tus hábitos diarios: dormir lo suficiente, evitar el uso excesivo del celular o las pantallas y mantener una alimentación saludable. Hablar con alguien de confianza —un amigo, familiar o docente— también puede darte alivio y nuevas ideas para manejar las situaciones que te generan tensión. Si este nivel de estrés se repite seguido, es recomendable buscar estrategias más específicas o incluso conversar con un profesional para aprender nuevas formas de afrontarlo.
 
         </p>
-        <div class="psico-img"></div>
+        <div class="psico-img2"></div>
       </div>
     </section>
   </main>

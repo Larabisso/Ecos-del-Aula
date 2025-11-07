@@ -48,15 +48,22 @@
       margin: 0;
     }
 
-    .psico-img {
+    .psico-img1 {
       width: 220px;
       height: 140px;
       border-radius: 12px;
-      background: url('https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=') center/cover no-repeat;
+      background: url('img/nenes7.jpg') center/cover no-repeat;
       box-shadow: 0 6px 18px rgba(0,0,0,0.12);
       flex-shrink: 0;
     }
-
+    .psico-img2 {
+      width: 220px;
+      height: 140px;
+      border-radius: 12px;
+      background: url('img/nenes1.jpg') center/cover no-repeat;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+      flex-shrink: 0;
+    }
     .psico-subtitulo {
       color: #2d6a4f;
       font-size: 1.4rem;
@@ -94,7 +101,7 @@
           Durante el cuarto año, los adolescentes suelen experimentar un miedo implícito al crecimiento y a los cambios que este implica. Se trata de un momento de transición psicológica y emocional, en el que comienzan a consolidarse aspectos de la identidad personal, social y vocacional.
 
         </p>
-        <div class="psico-img"></div>
+        <div class="psico-img1"></div>
       </div>
 
       <div class="psico-bloque">
@@ -108,7 +115,7 @@
        Desde la psicología del desarrollo, este miedo puede interpretarse como una resistencia natural a la transformación, donde el individuo debe integrar nuevas responsabilidades, redefinir vínculos y repensar su rol en el mundo. La escuela, en este contexto, cumple un papel esencial como espacio de contención y orientación, facilitando la reflexión sobre los proyectos de vida y promoviendo un crecimiento saludable, tanto cognitivo como emocional.
 
         </p>
-        <div class="psico-img"></div>
+        <div class="psico-img2"></div>
       </div>
 
    

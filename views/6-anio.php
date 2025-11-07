@@ -48,11 +48,19 @@
       margin: 0;
     }
 
-    .psico-img {
+    .psico-img1 {
       width: 220px;
       height: 140px;
       border-radius: 12px;
-      background: url('https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=') center/cover no-repeat;
+      background: url('img/nenes3.jpg') center/cover no-repeat;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+      flex-shrink: 0;
+    }
+    .psico-img2 {
+      width: 220px;
+      height: 140px;
+      border-radius: 12px;
+      background: url('img/nenes4.jpg') center/cover no-repeat;
       box-shadow: 0 6px 18px rgba(0,0,0,0.12);
       flex-shrink: 0;
     }
@@ -94,7 +102,7 @@
          El sexto y último año de la escuela secundaria suele estar acompañado por un miedo a despedirse, a dejar atrás un espacio conocido que representó estabilidad, contención y pertenencia durante varios años.
 
         </p>
-        <div class="psico-img"></div>
+        <div class="psico-img1"></div>
       </div>
 
       <div class="psico-bloque">
@@ -107,7 +115,7 @@
         <p>
          Desde la psicología, se considera un momento de transición y elaboración simbólica, en el que el estudiante integra su historia escolar y se prepara para una nueva etapa vital. El acompañamiento institucional resulta fundamental para ayudar a procesar estas emociones y favorecer una despedida saludable, reconociendo los logros, fortaleciendo la autoestima y promoviendo una mirada esperanzadora hacia el futuro.
         </p>
-        <div class="psico-img"></div>
+        <div class="psico-img2"></div>
       </div>
 
       

@@ -48,11 +48,19 @@
       margin: 0;
     }
 
-    .psico-img {
+    .psico-img1 {
       width: 220px;
       height: 140px;
       border-radius: 12px;
-      background: url('https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=') center/cover no-repeat;
+      background: url('img/relajado1.jpg') center/cover no-repeat;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+      flex-shrink: 0;
+    }
+    .psico-img2 {
+      width: 220px;
+      height: 140px;
+      border-radius: 12px;
+      background: url('img/relajado2.jpg') center/cover no-repeat;
       box-shadow: 0 6px 18px rgba(0,0,0,0.12);
       flex-shrink: 0;
     }
@@ -93,7 +101,7 @@
          Tu nivel de estrés es bajo, lo que indica que sabés manejar bien las presiones académicas y tus tiempos personales. Esto muestra que podés equilibrar tus responsabilidades con momentos de descanso, diversión y autocuidado. Tener este tipo de equilibrio es muy positivo, porque te permite mantener un buen rendimiento sin descuidar tu bienestar emocional.
 
         </p>
-        <div class="psico-img"></div>
+        <div class="psico-img1"></div>
       </div>
 
       <div class="psico-bloque">
@@ -107,7 +115,7 @@
           Aunque tu nivel de estrés sea bajo, es normal sentir cierta tensión ante nuevos desafíos. Lo importante es que esas pequeñas preocupaciones no se acumulen. Si seguís cuidando tu salud mental y emocional, vas a poder mantener este equilibrio y responder de manera positiva ante cualquier dificultad.
 
         </p>
-        <div class="psico-img"></div>
+        <div class="psico-img2"></div>
       </div>
 
   

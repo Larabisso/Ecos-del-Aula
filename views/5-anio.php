@@ -48,11 +48,19 @@
       margin: 0;
     }
 
-    .psico-img {
+    .psico-img1 {
       width: 220px;
       height: 140px;
       border-radius: 12px;
-      background: url('https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=') center/cover no-repeat;
+      background: url('img/nenes5.jpg') center/cover no-repeat;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+      flex-shrink: 0;
+    }
+    .psico-img2 {
+      width: 220px;
+      height: 140px;
+      border-radius: 12px;
+      background: url('img/nenes6.jpg') center/cover no-repeat;
       box-shadow: 0 6px 18px rgba(0,0,0,0.12);
       flex-shrink: 0;
     }
@@ -95,7 +103,7 @@
          En quinto año se evidencia con claridad el miedo a tomar decisiones trascendentes relacionadas con el futuro académico, laboral y personal. Aparece la preocupación por la elección de una carrera o por la inserción en el mundo del trabajo, acompañada por la sensación de que cada decisión puede determinar el rumbo de la vida.
 
         </p>
-        <div class="psico-img"></div>
+        <div class="psico-img1"></div>
       </div>
 
       <div class="psico-bloque">
@@ -109,7 +117,7 @@
 El desafío radica en equilibrar la libertad con la responsabilidad, aprendiendo a tomar decisiones informadas y a tolerar la incertidumbre. En esta etapa, el acompañamiento docente y la orientación vocacional adquieren una relevancia especial para brindar herramientas que permitan al estudiante planificar su futuro desde un lugar de seguridad y autoconfianza.
 
         </p>
-        <div class="psico-img"></div>
+        <div class="psico-img2"></div>
       </div>
 
      
