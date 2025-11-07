@@ -86,12 +86,13 @@
 
   <main class="psico-main">
     <section class="psico-contenido">
-      <h1 class="psico-titulo">Primer año – El miedo a lo desconocido y la adaptación al cambio
+      <h1 class="psico-titulo"> Quinto año – El miedo a decidir y la proyección del futuro
+
 </h1>
 
       <div class="psico-bloque">
         <p>
-          El ingreso a la escuela secundaria representa uno de los momentos más significativos en la trayectoria escolar de un adolescente. Durante el primer año, se manifiesta con frecuencia un miedo a lo desconocido, vinculado con el proceso de transición desde la escuela primaria hacia un entorno más amplio, complejo y exigente.
+         En quinto año se evidencia con claridad el miedo a tomar decisiones trascendentes relacionadas con el futuro académico, laboral y personal. Aparece la preocupación por la elección de una carrera o por la inserción en el mundo del trabajo, acompañada por la sensación de que cada decisión puede determinar el rumbo de la vida.
 
         </p>
         <div class="psico-img"></div>
@@ -99,13 +100,13 @@
 
       <div class="psico-bloque">
         <p>
-   Este temor se asocia a la necesidad de adaptación a nuevas normas, docentes, materias, metodologías de evaluación y, sobre todo, a la conformación de un nuevo grupo social.
+  Este miedo refleja la ansiedad propia del proceso de individuación, donde el adolescente comienza a reconocerse como sujeto autónomo, responsable de sus elecciones. Desde la perspectiva psicológica, se trata de un miedo evolutivo que, bien acompañado, puede transformarse en un motor de crecimiento.
  </p>
       </div>
 
       <div class="psico-bloque">
         <p>
-Desde la psicología educativa, este período se caracteriza por un aumento de la ansiedad anticipatoria y por la búsqueda de pertenencia. El estudiante debe construir un sentido de identidad dentro del nuevo espacio institucional, lo cual puede generar inseguridad y dudas sobre sus propias capacidades. Sin embargo, este proceso también ofrece una oportunidad valiosa para desarrollar habilidades de resiliencia, autonomía y confianza personal, fundamentales para el resto de la escolaridad.
+El desafío radica en equilibrar la libertad con la responsabilidad, aprendiendo a tomar decisiones informadas y a tolerar la incertidumbre. En esta etapa, el acompañamiento docente y la orientación vocacional adquieren una relevancia especial para brindar herramientas que permitan al estudiante planificar su futuro desde un lugar de seguridad y autoconfianza.
 
         </p>
         <div class="psico-img"></div>

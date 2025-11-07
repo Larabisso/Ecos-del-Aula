@@ -10,6 +10,22 @@ if ($resSuma && $resSuma->num_rows > 0) {
     $row = $resSuma->fetch_assoc();
     $totalPuntos = $row['total_puntos'];
 }
+
+// Redirección automática según el rango
+if ($totalPuntos <= 15) {
+    header("Location: promedio_bajo.php");
+    exit();
+} elseif ($totalPuntos <= 35) {
+    header("Location: promedio_medio.php");
+    exit();
+} elseif ($totalPuntos <= 60) {
+    header("Location: promedio_alto.php");
+    exit();
+} else {
+    echo "Puntaje fuera de rango.";
+}
+
+
 ?>
 <!DOCTYPE html>
 <html lang="es">

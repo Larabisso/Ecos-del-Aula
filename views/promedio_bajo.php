@@ -86,12 +86,11 @@
 
   <main class="psico-main">
     <section class="psico-contenido">
-      <h1 class="psico-titulo">Tercer año – El miedo al fracaso y la exigencia del rendimiento
-</h1>
+      <h1 class="psico-titulo">Estrés bajo</h1>
 
       <div class="psico-bloque">
         <p>
-        El tercer año marca un momento en el que los estudiantes comienzan a experimentar una mayor presión académica y personal. Los contenidos escolares se vuelven más complejos y las expectativas de rendimiento aumentan, tanto por parte de los docentes como de las familias y del propio estudiante.
+         Tu nivel de estrés es bajo, lo que indica que sabés manejar bien las presiones académicas y tus tiempos personales. Esto muestra que podés equilibrar tus responsabilidades con momentos de descanso, diversión y autocuidado. Tener este tipo de equilibrio es muy positivo, porque te permite mantener un buen rendimiento sin descuidar tu bienestar emocional.
 
         </p>
         <div class="psico-img"></div>
@@ -99,19 +98,19 @@
 
       <div class="psico-bloque">
         <p>
-          El miedo predominante en esta etapa suele ser el temor al fracaso o a no estar a la altura de las exigencias. Este sentimiento puede generar ansiedad, frustración y una autocrítica excesiva que afecta la motivación.
+          Seguí fortaleciendo esos hábitos saludables: dormir bien, alimentarte de forma equilibrada y dedicarte a actividades que disfrutes. También es importante que mantengas una buena organización y planificación de tus tareas. Esto te va a ayudar mucho cuando lleguen momentos de más exigencia, como exámenes o entregas importantes, y así podrás evitar que el estrés aumente.
  </p>
       </div>
 
       <div class="psico-bloque">
         <p>
-    Desde lo psicológico, es una etapa clave para fortalecer la autopercepción de competencia y promover estrategias de afrontamiento ante los desafíos. Aprender a reconocer los errores como parte del proceso de aprendizaje, y no como fracasos personales, constituye un avance esencial hacia la madurez emocional. Asimismo, el acompañamiento institucional y familiar debe orientarse a equilibrar la exigencia con el apoyo emocional, promoviendo la confianza y el desarrollo de la autonomía.
+          Aunque tu nivel de estrés sea bajo, es normal sentir cierta tensión ante nuevos desafíos. Lo importante es que esas pequeñas preocupaciones no se acumulen. Si seguís cuidando tu salud mental y emocional, vas a poder mantener este equilibrio y responder de manera positiva ante cualquier dificultad.
 
         </p>
         <div class="psico-img"></div>
       </div>
 
-    
+  
     </section>
   </main>
 

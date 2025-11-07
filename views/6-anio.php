@@ -86,39 +86,31 @@
 
   <main class="psico-main">
     <section class="psico-contenido">
-      <h1 class="psico-titulo">El desafío de empezar algo nuevo.</h1>
+      <h1 class="psico-titulo">Sexto año – El miedo a cerrar etapas y enfrentar la adultez
+</h1>
 
       <div class="psico-bloque">
         <p>
-          Frente a los altos niveles de estrés que viven muchos estudiantes dentro del ámbito escolar,
-          causados por la presión académica, la necesidad de encajar socialmente, la incertidumbre sobre el futuro
-          y otras tensiones emocionales, surge nuestro proyecto como una propuesta de contención,
-          escucha activa y acompañamiento.
+         El sexto y último año de la escuela secundaria suele estar acompañado por un miedo a despedirse, a dejar atrás un espacio conocido que representó estabilidad, contención y pertenencia durante varios años.
+
         </p>
         <div class="psico-img"></div>
       </div>
 
       <div class="psico-bloque">
         <p>
-          El eje principal del proyecto es una página web interactiva, que servirá como espacio seguro,
-          accesible y adaptable a las distintas etapas de la secundaria, así como a sus necesidades específicas.
-        </p>
+         A nivel emocional, se trata de un proceso de duelo por la finalización de una etapa significativa, donde conviven la alegría por los logros alcanzados con la incertidumbre frente a lo que viene. Este miedo está vinculado con el paso hacia la adultez, la asunción de nuevas responsabilidades y la necesidad de autonomía.
+   </p>
       </div>
 
       <div class="psico-bloque">
         <p>
-          Se busca acompañar al estudiante en su recorrido emocional: desde el miedo al comenzar primer año,
-          hasta la ansiedad frente al futuro en sexto.
+         Desde la psicología, se considera un momento de transición y elaboración simbólica, en el que el estudiante integra su historia escolar y se prepara para una nueva etapa vital. El acompañamiento institucional resulta fundamental para ayudar a procesar estas emociones y favorecer una despedida saludable, reconociendo los logros, fortaleciendo la autoestima y promoviendo una mirada esperanzadora hacia el futuro.
         </p>
         <div class="psico-img"></div>
       </div>
 
-      <h2 class="psico-subtitulo">Cada etapa, un desafío</h2>
-      <p style="text-indent:2em; text-align:justify; line-height:1.7; color:#08311a;">
-        Cada año de la secundaria trae sus propios desafíos y emociones.
-        En esta sección encontrarás un espacio pensado especialmente para acompañarte en cada etapa,
-        con recursos y apoyo adaptados a lo que estás viviendo.
-      </p>
+      
     </section>
   </main>
 

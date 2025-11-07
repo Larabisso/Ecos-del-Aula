@@ -86,12 +86,11 @@
 
   <main class="psico-main">
     <section class="psico-contenido">
-      <h1 class="psico-titulo">Tercer año – El miedo al fracaso y la exigencia del rendimiento
-</h1>
+      <h1 class="psico-titulo">Estrés alto</h1>
 
       <div class="psico-bloque">
         <p>
-        El tercer año marca un momento en el que los estudiantes comienzan a experimentar una mayor presión académica y personal. Los contenidos escolares se vuelven más complejos y las expectativas de rendimiento aumentan, tanto por parte de los docentes como de las familias y del propio estudiante.
+          Un nivel alto de estrés indica que estás pasando por un momento de mucha presión o sobrecarga emocional, y eso puede afectar tu salud física y mental. Podés sentirte muy cansado/a, con dificultad para concentrarte, cambios de humor, problemas para dormir o incluso molestias físicas como dolores de cabeza o tensión muscular.
 
         </p>
         <div class="psico-img"></div>
@@ -99,19 +98,22 @@
 
       <div class="psico-bloque">
         <p>
-          El miedo predominante en esta etapa suele ser el temor al fracaso o a no estar a la altura de las exigencias. Este sentimiento puede generar ansiedad, frustración y una autocrítica excesiva que afecta la motivación.
+          En este caso, no es recomendable que enfrentes el estrés solo/a. Buscar apoyo en un docente, un familiar o un psicólogo escolar puede ayudarte a encontrar formas más efectivas de sobrellevar lo que estás sintiendo. No se trata de debilidad, sino de cuidar tu bienestar y pedir la ayuda que necesitás.
  </p>
       </div>
 
       <div class="psico-bloque">
         <p>
-    Desde lo psicológico, es una etapa clave para fortalecer la autopercepción de competencia y promover estrategias de afrontamiento ante los desafíos. Aprender a reconocer los errores como parte del proceso de aprendizaje, y no como fracasos personales, constituye un avance esencial hacia la madurez emocional. Asimismo, el acompañamiento institucional y familiar debe orientarse a equilibrar la exigencia con el apoyo emocional, promoviendo la confianza y el desarrollo de la autonomía.
+          También es importante que revises tu rutina diaria: descansá lo suficiente, mantené horarios regulares, alimentate bien y limitá el tiempo frente a las pantallas. Realizar actividad física, escuchar música, dibujar, hacer pausas activas o practicar ejercicios de respiración puede ayudarte a liberar tensiones y sentirte mejor.
 
         </p>
         <div class="psico-img"></div>
       </div>
 
-    
+      <h2 class="psico-subtitulo">Cada etapa es un desafío</h2>
+      <p style="text-indent:2em; text-align:justify; line-height:1.7; color:#08311a;">
+        Recordá que cuidar tu salud emocional es tan importante como cuidar tu rendimiento académico. Pedir ayuda y tomarte tiempo para vos mismo/a es una forma de fortalecerte y mejorar tu bienestar general.
+      </p>
     </section>
   </main>
 

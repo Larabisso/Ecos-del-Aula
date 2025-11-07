@@ -86,12 +86,11 @@
 
   <main class="psico-main">
     <section class="psico-contenido">
-      <h1 class="psico-titulo">Tercer año – El miedo al fracaso y la exigencia del rendimiento
-</h1>
+      <h1 class="psico-titulo">Estrés moderado</h1>
 
       <div class="psico-bloque">
         <p>
-        El tercer año marca un momento en el que los estudiantes comienzan a experimentar una mayor presión académica y personal. Los contenidos escolares se vuelven más complejos y las expectativas de rendimiento aumentan, tanto por parte de los docentes como de las familias y del propio estudiante.
+          Tu nivel de estrés está en un punto medio, lo que significa que probablemente empezás a sentir que las responsabilidades o preocupaciones te están afectando un poco más de lo normal. Podés notar que te cuesta concentrarte, que te cansás con facilidad o que te cuesta relajarte después de estudiar.
 
         </p>
         <div class="psico-img"></div>
@@ -99,19 +98,17 @@
 
       <div class="psico-bloque">
         <p>
-          El miedo predominante en esta etapa suele ser el temor al fracaso o a no estar a la altura de las exigencias. Este sentimiento puede generar ansiedad, frustración y una autocrítica excesiva que afecta la motivación.
- </p>
+          En esta etapa es importante organizar mejor tu tiempo y tus actividades. Una buena estrategia es priorizar las tareas más importantes, dividir los trabajos grandes en partes más pequeñas y dejar momentos para descansar o desconectarte. Además, podés incorporar técnicas simples de relajación, como respirar profundo unos minutos, estirarte o dar una breve caminata cuando estés saturado/a.
+</p>
       </div>
 
       <div class="psico-bloque">
         <p>
-    Desde lo psicológico, es una etapa clave para fortalecer la autopercepción de competencia y promover estrategias de afrontamiento ante los desafíos. Aprender a reconocer los errores como parte del proceso de aprendizaje, y no como fracasos personales, constituye un avance esencial hacia la madurez emocional. Asimismo, el acompañamiento institucional y familiar debe orientarse a equilibrar la exigencia con el apoyo emocional, promoviendo la confianza y el desarrollo de la autonomía.
+          También puede ayudarte revisar tus hábitos diarios: dormir lo suficiente, evitar el uso excesivo del celular o las pantallas y mantener una alimentación saludable. Hablar con alguien de confianza —un amigo, familiar o docente— también puede darte alivio y nuevas ideas para manejar las situaciones que te generan tensión. Si este nivel de estrés se repite seguido, es recomendable buscar estrategias más específicas o incluso conversar con un profesional para aprender nuevas formas de afrontarlo.
 
         </p>
         <div class="psico-img"></div>
       </div>
-
-    
     </section>
   </main>
 

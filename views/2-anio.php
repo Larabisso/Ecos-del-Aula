@@ -86,39 +86,31 @@
 
   <main class="psico-main">
     <section class="psico-contenido">
-      <h1 class="psico-titulo">El desafío de empezar algo nuevo.</h1>
+      <h1 class="psico-titulo">Segundo año – El miedo a no pertenecer y la construcción de la identidad
+</h1>
 
       <div class="psico-bloque">
         <p>
-          Frente a los altos niveles de estrés que viven muchos estudiantes dentro del ámbito escolar,
-          causados por la presión académica, la necesidad de encajar socialmente, la incertidumbre sobre el futuro
-          y otras tensiones emocionales, surge nuestro proyecto como una propuesta de contención,
-          escucha activa y acompañamiento.
+          En segundo año, los adolescentes ya se encuentran más familiarizados con la dinámica institucional, pero comienzan a enfrentar otro tipo de desafío: el miedo a no pertenecer plenamente.
+
         </p>
         <div class="psico-img"></div>
       </div>
 
       <div class="psico-bloque">
         <p>
-          El eje principal del proyecto es una página web interactiva, que servirá como espacio seguro,
-          accesible y adaptable a las distintas etapas de la secundaria, así como a sus necesidades específicas.
-        </p>
+          Esta etapa se caracteriza por una fuerte búsqueda de identidad personal y social, donde el grupo de pares adquiere un papel central en la validación y el reconocimiento del yo. Surgen comparaciones, preocupaciones por la apariencia, la aceptación y el lugar que se ocupa dentro del grupo.
+ </p>
       </div>
 
       <div class="psico-bloque">
         <p>
-          Se busca acompañar al estudiante en su recorrido emocional: desde el miedo al comenzar primer año,
-          hasta la ansiedad frente al futuro en sexto.
+          Desde una perspectiva psicológica, este miedo se relaciona con la necesidad de afirmar la individualidad sin quedar excluido del entorno social. Es una etapa de exploración y ajuste en la que los adolescentes ponen a prueba sus valores, intereses y formas de vincularse. El rol de la escuela y los adultos de referencia resulta fundamental para fomentar la tolerancia, la empatía y la autenticidad, ayudando al estudiante a sostener su identidad en un contexto de constante cambio.
+
         </p>
         <div class="psico-img"></div>
       </div>
 
-      <h2 class="psico-subtitulo">Cada etapa, un desafío</h2>
-      <p style="text-indent:2em; text-align:justify; line-height:1.7; color:#08311a;">
-        Cada año de la secundaria trae sus propios desafíos y emociones.
-        En esta sección encontrarás un espacio pensado especialmente para acompañarte en cada etapa,
-        con recursos y apoyo adaptados a lo que estás viviendo.
-      </p>
     </section>
   </main>
 

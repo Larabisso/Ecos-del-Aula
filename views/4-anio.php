@@ -86,39 +86,32 @@
 
   <main class="psico-main">
     <section class="psico-contenido">
-      <h1 class="psico-titulo">El desafío de empezar algo nuevo.</h1>
+      <h1 class="psico-titulo">Cuarto año – El miedo a crecer y la incertidumbre del cambio
+</h1>
 
       <div class="psico-bloque">
         <p>
-          Frente a los altos niveles de estrés que viven muchos estudiantes dentro del ámbito escolar,
-          causados por la presión académica, la necesidad de encajar socialmente, la incertidumbre sobre el futuro
-          y otras tensiones emocionales, surge nuestro proyecto como una propuesta de contención,
-          escucha activa y acompañamiento.
+          Durante el cuarto año, los adolescentes suelen experimentar un miedo implícito al crecimiento y a los cambios que este implica. Se trata de un momento de transición psicológica y emocional, en el que comienzan a consolidarse aspectos de la identidad personal, social y vocacional.
+
         </p>
         <div class="psico-img"></div>
       </div>
 
       <div class="psico-bloque">
         <p>
-          El eje principal del proyecto es una página web interactiva, que servirá como espacio seguro,
-          accesible y adaptable a las distintas etapas de la secundaria, así como a sus necesidades específicas.
-        </p>
+          El estudiante ya no se percibe como un niño, pero tampoco se siente completamente adulto. Esta dualidad genera una sensación de ambigüedad y vulnerabilidad, especialmente frente a los cambios corporales, afectivos y sociales.
+    </p>
       </div>
 
       <div class="psico-bloque">
         <p>
-          Se busca acompañar al estudiante en su recorrido emocional: desde el miedo al comenzar primer año,
-          hasta la ansiedad frente al futuro en sexto.
+       Desde la psicología del desarrollo, este miedo puede interpretarse como una resistencia natural a la transformación, donde el individuo debe integrar nuevas responsabilidades, redefinir vínculos y repensar su rol en el mundo. La escuela, en este contexto, cumple un papel esencial como espacio de contención y orientación, facilitando la reflexión sobre los proyectos de vida y promoviendo un crecimiento saludable, tanto cognitivo como emocional.
+
         </p>
         <div class="psico-img"></div>
       </div>
 
-      <h2 class="psico-subtitulo">Cada etapa, un desafío</h2>
-      <p style="text-indent:2em; text-align:justify; line-height:1.7; color:#08311a;">
-        Cada año de la secundaria trae sus propios desafíos y emociones.
-        En esta sección encontrarás un espacio pensado especialmente para acompañarte en cada etapa,
-        con recursos y apoyo adaptados a lo que estás viviendo.
-      </p>
+   
     </section>
   </main>
 
